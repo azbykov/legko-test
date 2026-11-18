@@ -1,0 +1,17 @@
+{
+  "name": "net-speed",
+  "version": "1.0.0",
+  "description": "CLI that measures download speed by making N sequential requests to a URL",
+  "type": "module",
+  "bin": {
+    "net-speed": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
